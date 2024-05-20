@@ -8,7 +8,7 @@ const Loancalci=()=>
         const[emiAmount,setemiAmount] = useState("");
         const[totalInterest,settotalInterest] = useState("");
         const[totalpay,settotalpay] = useState("");
-        const[error,seterror] = useState("");
+       // const[error,seterror] = useState("");
 
         const Calcu=()=>
             {
@@ -34,7 +34,7 @@ const Loancalci=()=>
                 setemiAmount(emi.toFixed(2));
                 settotalInterest(totalInterests.toFixed(2));
                 settotalpay(totalPayment.toFixed(2));
-                seterror("");
+                //seterror("");
 
             }
 
