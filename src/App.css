@@ -1,0 +1,22 @@
+body{
+  background-color: honeydew;
+}
+
+.calci{
+  color: darkslategray;
+  width:100%;
+  padding: 30px 40px;
+}
+
+.output{
+  background-color: beige;
+  padding:10px 20px;
+  color:darkslategray;
+  text-decoration: underline;
+}
+button{
+  color:aliceblue;
+  background-color: darkslategray;
+  
+  border-color: black;
+}
